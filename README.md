@@ -30,4 +30,21 @@ Perplexity on validation and test with Ensemble of All:
 ## addition of new models
 New models can be easily add to the ensemble by producing probabilities of words on valid and test set and then they can be put into specific folders regarding datasets. We have reproduced most of the open sourced models and their probabilities on each word can be seen in individual folders `PennTreeBank`, `Wikitext-2`,`Wikitext-103`.
 
+## citation
 
+Please cite the [arxiv paper](https://arxiv.org/abs/2312.03735) if you use our work:
+
+```bibtex
+@misc{herel2023advancing,
+      title={Advancing State of the Art in Language Modeling}, 
+      author={David Herel and Tomas Mikolov},
+      year={2023},
+      eprint={2312.03735},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+```
+
+## License
+Our code is MIT licensed. See the **[LICENSE](https://github.com/DavidHerel/sota_lm/blob/main/LICENSE)** file for details.
