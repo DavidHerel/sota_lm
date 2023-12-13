@@ -13,7 +13,9 @@ To run evaluation of code on all datasets:
 $ python main.py
 ```
 
-This will create optimal weighted combination of models in ensemble on each dataset. It will also generate `index.html` containing graphs and charts. 
+This will create optimal weighted combination of models in ensemble on each dataset. It will also generate `index.html` containing graphs and charts:
+[LM Leaderboard](https://davidherel.com/sota_lm/)
+
 
 [//]: # (It will also update `README.md` with the newest results.)
 
